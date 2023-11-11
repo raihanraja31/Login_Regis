@@ -1,0 +1,3 @@
+//tombol disable
+getElemenbyId
+getElemenbyClassName

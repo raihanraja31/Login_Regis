@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Teko&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9.275px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.logo a svg {
+    margin-right: 16px;
+    margin-top: -5px;
+}
+
+nav, .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 57px;
+    font-family: Inter;
+    font-size: 22.489px;
+    line-height: 14px;
+}
+
+nav ul li :hover{
+    font-weight: 700;
+}
+
+.dropdown{
+    position: relative;
+    font-family: Inter;
+    font-size: 22px;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.dropdown:hover ul{
+    display: block;
+}
